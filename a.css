@@ -29,7 +29,17 @@ h1{
     font-weight:bold;s
  	 margin: auto ; 
 }
-
+#facebook
+{
+    color:#333
+}
+#twitter
+{
+    color:#333
+}#google
+{
+    color:#333
+}
 .form-style-8{
     font-family: 'Open Sans Condensed', arial, sans;
     width: 30%;
