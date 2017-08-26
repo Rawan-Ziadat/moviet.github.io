@@ -15,45 +15,51 @@
  <body> 
 <video poster="" id="bgvid" playsinline autoplay muted loop>
 
-<source src="firstedit2.mp4" type="video/mp4">
+<source src="firstedit.mp4" type="video/mp4">
 
 </video>
-<div id="ho">
+<div id="maintitle">
 <h1>Moviet</h1>
 </div>
+
 <div>
-<div class="form-style-8" >
-    <h2 id="login">Login </h2>
+
+</div>
+
+<div id="firstpage" class="form-style-8">
+
+  <div class="inpform" id="loginform">
+  <h2 id="login">Login </h2>
   <form>
-    <input type="email" name="field2" placeholder="Email" size="35" maxlength="30"/>
-    <input type="password" name="field3" placeholder="Password" size="35" maxlength="30"/>
-    <input type="button" value="Login" />
+    <input id="loginmail" type="email" name="field2" placeholder="Email" size="35" maxlength="30"/>
+    <input id="loginpassword" type="password" name="field3" placeholder="Password" size="35" maxlength="30"/>
+    <input id="loginbutton" type="button" value="Login" />
   </form>
 
-  <h2 id="signup">Sign Up </h2>
-  <form>
-    <input type="text" name="field1" placeholder="Username" size="35" maxlength="30"/>
-    <input type="email" name="field2" placeholder="Email" size="35" maxlength="30"/>
-    <input type="password" name="field3" placeholder="Password" size="35" maxlength="30"/>
-    <input type="password" name="field4" placeholder="Password Again" size="35" maxlength="30"/>
-    <input type="button" value="Sign Up" />
-  </form>
+  </div>
+  <div class="inpform">
+     <h2 >Sign Up </h2> 
+    <form>
+      <input type="text" name="field1" placeholder="Username" size="35" maxlength="30"/>
+      <input type="email" name="field2" placeholder="Email" size="35" maxlength="30"/>
+      <input type="password" name="field3" placeholder="Password" size="35" maxlength="30"/>
+      <input type="password" name="field4" placeholder="Password Again" size="35" maxlength="30"/>
+      <input id="signupbutton" type="button" value="Sign Up" />
+    </form>
+  </div>
+    <div id="socialform" class ="inpform">
+       <h2 id="signup">OR</h2> 
+    <i   id="facebook" class="fa fa-facebook-official" style="font-size:48px; "></i>
 
-   <h2 id="signup">OR</h2>
-   <div>
-	<i   id="facebook" class="fa fa-facebook-official" style="font-size:48px; "></i>
+    <i id ="twitter" class="fa fa-twitter-square" style="font-size:48px; "></i>
 
-	<i id ="twitter" class="fa fa-twitter-square" style="font-size:48px; "></i>
-
-	<i id= "google" class="fa fa-google-plus-square" style="font-size:48px; "></i>
-
-
-   </div>
-
-<footer>
+    <i id= "google" class="fa fa-google-plus-square" style="font-size:48px; "></i>
+</div>
+<div> <!-- footer-->
   <p>continue as a <a href="">Guest</a>? </p>
   <p><a href=""> Reset your password   </a> </p>
-</footer>
+</div>
+</div>
 
 <script src='https://code.jquery.com/jquery-3.1.0.min.js'></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
