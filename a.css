@@ -12,22 +12,29 @@ video {
   transition: 1s opacity;
 }
 
-#ho {
+.inpform{
+    margin-top: 20% ; 
+    display: block;
+}
+#loginform{
+    margin-top: 10%
+
+}
+
+#maintitle {
 
     position: absolute;
     top: 70%;
-     display: inline-grid;
- 	 margin: auto ; 
+     display: inline-block;
+ 	 margin-bottom: : 10% ; 
 }
 h1{
-	 z-index: 10;
-	   color: #f4f4f4 ;
-	   font-size: 80px ; 
- 	 display: inline-grid;
+	z-index: 10;
+	color: #f4f4f4 ;
+	font-size: 80px ; 
 	font-family: 'Lobster', Georgia, Times, serif;
- 	     font-style: italic ;
-    font-weight:bold;s
- 	 margin: auto ; 
+ 	font-style: italic ;
+    font-weight:bold;
 }
 #facebook
 {
@@ -48,40 +55,25 @@ h1{
     background: #FFFFFF;
     float: right;
     opacity: 0.6;
-    margin: 100px auto;
+    margin-top: 5%;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
     -moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
     -webkit-box-shadow:  0px 0px 15px rgba(0, 0, 0, 0.22);
+    display: inline-block;
+
 
 }
-#signup{
 
-    background: #00000;
-    opacity: 0.6;
-    font-family: 'Open Sans Condensed', sans-serif;
-    color: #000000;
-    font-size: 18px;
-  font-style: italic ;
-    font-weight:bold;
-    padding-top:50px;
-    padding-left: 15px ; 
-    margin: -30px -30px 15px -30px;
-
-}
-#login{
-    background: #00000;
+h2{
     font-style: italic ;
     font-weight:bold;
     opacity: 0.6;
     font-family: 'Open Sans Condensed', sans-serif;
     color: #000000;
     font-size: 18px;
-  font-style: italic ;
-    font-weight:bold;
-        padding-top:50px;
-    padding-left: 15px ; 
-    margin: -30px -30px 15px -30px;
+
 }
+
 .form-style-8 input[type="text"],
 .form-style-8 input[type="email"],
 .form-style-8 input[type="password"],
@@ -117,6 +109,7 @@ h1{
     padding: 8px 18px;
     text-decoration: none;
     float: right;
+
 }
 
 .form-style-8 input[type="button"]:hover, 
